@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044205731964695400256B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205721964695400256B8E /* Foundation.framework */; };
+		044205751964695400256B8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205741964695400256B8E /* CoreGraphics.framework */; };
+		044205771964695400256B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205761964695400256B8E /* UIKit.framework */; };
+		0442057D1964695400256B8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0442057B1964695400256B8E /* InfoPlist.strings */; };
+		0442057F1964695400256B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442057E1964695400256B8E /* main.m */; };
+		044205831964695400256B8E /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044205821964695400256B8E /* XMAppDelegate.m */; };
+		044205861964695400256B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044205841964695400256B8E /* Main.storyboard */; };
+		044205891964695400256B8E /* XMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044205881964695400256B8E /* XMViewController.m */; };
+		0442058B1964695400256B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442058A1964695400256B8E /* Images.xcassets */; };
+		044205921964695400256B8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205911964695400256B8E /* XCTest.framework */; };
+		044205931964695400256B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205721964695400256B8E /* Foundation.framework */; };
+		044205941964695400256B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044205761964695400256B8E /* UIKit.framework */; };
+		0442059C1964695400256B8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0442059A1964695400256B8E /* InfoPlist.strings */; };
+		0442059E1964695400256B8E /* ScrollPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442059D1964695400256B8E /* ScrollPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044205951964695400256B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044205671964695400256B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0442056E1964695400256B8E;
+			remoteInfo = ScrollPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0442056F1964695400256B8E /* ScrollPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044205721964695400256B8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		044205741964695400256B8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		044205761964695400256B8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0442057A1964695400256B8E /* ScrollPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollPicker-Info.plist"; sourceTree = "<group>"; };
+		0442057C1964695400256B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0442057E1964695400256B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044205801964695400256B8E /* ScrollPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollPicker-Prefix.pch"; sourceTree = "<group>"; };
+		044205811964695400256B8E /* XMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppDelegate.h; sourceTree = "<group>"; };
+		044205821964695400256B8E /* XMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppDelegate.m; sourceTree = "<group>"; };
+		044205851964695400256B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044205871964695400256B8E /* XMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMViewController.h; sourceTree = "<group>"; };
+		044205881964695400256B8E /* XMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMViewController.m; sourceTree = "<group>"; };
+		0442058A1964695400256B8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044205901964695400256B8E /* ScrollPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044205911964695400256B8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		044205991964695400256B8E /* ScrollPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollPickerTests-Info.plist"; sourceTree = "<group>"; };
+		0442059B1964695400256B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0442059D1964695400256B8E /* ScrollPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0442056C1964695400256B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044205751964695400256B8E /* CoreGraphics.framework in Frameworks */,
+				044205771964695400256B8E /* UIKit.framework in Frameworks */,
+				044205731964695400256B8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442058D1964695400256B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044205921964695400256B8E /* XCTest.framework in Frameworks */,
+				044205941964695400256B8E /* UIKit.framework in Frameworks */,
+				044205931964695400256B8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044205661964695400256B8E = {
+			isa = PBXGroup;
+			children = (
+				044205781964695400256B8E /* ScrollPicker */,
+				044205971964695400256B8E /* ScrollPickerTests */,
+				044205711964695400256B8E /* Frameworks */,
+				044205701964695400256B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044205701964695400256B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0442056F1964695400256B8E /* ScrollPicker.app */,
+				044205901964695400256B8E /* ScrollPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044205711964695400256B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044205721964695400256B8E /* Foundation.framework */,
+				044205741964695400256B8E /* CoreGraphics.framework */,
+				044205761964695400256B8E /* UIKit.framework */,
+				044205911964695400256B8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		044205781964695400256B8E /* ScrollPicker */ = {
+			isa = PBXGroup;
+			children = (
+				044205811964695400256B8E /* XMAppDelegate.h */,
+				044205821964695400256B8E /* XMAppDelegate.m */,
+				044205841964695400256B8E /* Main.storyboard */,
+				044205871964695400256B8E /* XMViewController.h */,
+				044205881964695400256B8E /* XMViewController.m */,
+				0442058A1964695400256B8E /* Images.xcassets */,
+				044205791964695400256B8E /* Supporting Files */,
+			);
+			path = ScrollPicker;
+			sourceTree = "<group>";
+		};
+		044205791964695400256B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0442057A1964695400256B8E /* ScrollPicker-Info.plist */,
+				0442057B1964695400256B8E /* InfoPlist.strings */,
+				0442057E1964695400256B8E /* main.m */,
+				044205801964695400256B8E /* ScrollPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044205971964695400256B8E /* ScrollPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0442059D1964695400256B8E /* ScrollPickerTests.m */,
+				044205981964695400256B8E /* Supporting Files */,
+			);
+			path = ScrollPickerTests;
+			sourceTree = "<group>";
+		};
+		044205981964695400256B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044205991964695400256B8E /* ScrollPickerTests-Info.plist */,
+				0442059A1964695400256B8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0442056E1964695400256B8E /* ScrollPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044205A11964695400256B8E /* Build configuration list for PBXNativeTarget "ScrollPicker" */;
+			buildPhases = (
+				0442056B1964695400256B8E /* Sources */,
+				0442056C1964695400256B8E /* Frameworks */,
+				0442056D1964695400256B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollPicker;
+			productName = ScrollPicker;
+			productReference = 0442056F1964695400256B8E /* ScrollPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0442058F1964695400256B8E /* ScrollPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044205A41964695400256B8E /* Build configuration list for PBXNativeTarget "ScrollPickerTests" */;
+			buildPhases = (
+				0442058C1964695400256B8E /* Sources */,
+				0442058D1964695400256B8E /* Frameworks */,
+				0442058E1964695400256B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044205961964695400256B8E /* PBXTargetDependency */,
+			);
+			name = ScrollPickerTests;
+			productName = ScrollPickerTests;
+			productReference = 044205901964695400256B8E /* ScrollPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044205671964695400256B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.yuzhuangbao.xiaomi;
+				TargetAttributes = {
+					0442058F1964695400256B8E = {
+						TestTargetID = 0442056E1964695400256B8E;
+					};
+				};
+			};
+			buildConfigurationList = 0442056A1964695400256B8E /* Build configuration list for PBXProject "ScrollPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044205661964695400256B8E;
+			productRefGroup = 044205701964695400256B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0442056E1964695400256B8E /* ScrollPicker */,
+				0442058F1964695400256B8E /* ScrollPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0442056D1964695400256B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442058B1964695400256B8E /* Images.xcassets in Resources */,
+				0442057D1964695400256B8E /* InfoPlist.strings in Resources */,
+				044205861964695400256B8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442058E1964695400256B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442059C1964695400256B8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0442056B1964695400256B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442057F1964695400256B8E /* main.m in Sources */,
+				044205831964695400256B8E /* XMAppDelegate.m in Sources */,
+				044205891964695400256B8E /* XMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442058C1964695400256B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442059E1964695400256B8E /* ScrollPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044205961964695400256B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0442056E1964695400256B8E /* ScrollPicker */;
+			targetProxy = 044205951964695400256B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0442057B1964695400256B8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0442057C1964695400256B8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		044205841964695400256B8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044205851964695400256B8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0442059A1964695400256B8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0442059B1964695400256B8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0442059F1964695400256B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044205A01964695400256B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044205A21964695400256B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollPicker/ScrollPicker-Prefix.pch";
+				INFOPLIST_FILE = "ScrollPicker/ScrollPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		044205A31964695400256B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollPicker/ScrollPicker-Prefix.pch";
+				INFOPLIST_FILE = "ScrollPicker/ScrollPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		044205A51964695400256B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollPicker.app/ScrollPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollPicker/ScrollPicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollPickerTests/ScrollPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		044205A61964695400256B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollPicker.app/ScrollPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollPicker/ScrollPicker-Prefix.pch";
+				INFOPLIST_FILE = "ScrollPickerTests/ScrollPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0442056A1964695400256B8E /* Build configuration list for PBXProject "ScrollPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442059F1964695400256B8E /* Debug */,
+				044205A01964695400256B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044205A11964695400256B8E /* Build configuration list for PBXNativeTarget "ScrollPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044205A21964695400256B8E /* Debug */,
+				044205A31964695400256B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044205A41964695400256B8E /* Build configuration list for PBXNativeTarget "ScrollPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044205A51964695400256B8E /* Debug */,
+				044205A61964695400256B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044205671964695400256B8E /* Project object */;
+}

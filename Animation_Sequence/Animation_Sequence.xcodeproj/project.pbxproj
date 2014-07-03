@@ -21,6 +21,11 @@
 		0428A9491963E7E300FE1F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0428A92B1963E7E300FE1F30 /* UIKit.framework */; };
 		0428A9511963E7E300FE1F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0428A94F1963E7E300FE1F30 /* InfoPlist.strings */; };
 		0428A9531963E7E300FE1F30 /* Animation_SequenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428A9521963E7E300FE1F30 /* Animation_SequenceTests.m */; };
+		0428A95E1963EAC800FE1F30 /* XMIconsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428A95D1963EAC800FE1F30 /* XMIconsView.m */; };
+		0428A9661963EB8800FE1F30 /* QBAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428A9611963EB8800FE1F30 /* QBAnimationGroup.m */; };
+		0428A9671963EB8800FE1F30 /* QBAnimationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428A9631963EB8800FE1F30 /* QBAnimationItem.m */; };
+		0428A9681963EB8800FE1F30 /* QBAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428A9651963EB8800FE1F30 /* QBAnimationSequence.m */; };
+		0428A96B1963ED9F00FE1F30 /* predefinedApps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0428A96A1963ED9F00FE1F30 /* predefinedApps.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		0428A94E1963E7E300FE1F30 /* Animation_SequenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation_SequenceTests-Info.plist"; sourceTree = "<group>"; };
 		0428A9501963E7E300FE1F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0428A9521963E7E300FE1F30 /* Animation_SequenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation_SequenceTests.m; sourceTree = "<group>"; };
+		0428A95C1963EAC800FE1F30 /* XMIconsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMIconsView.h; sourceTree = "<group>"; };
+		0428A95D1963EAC800FE1F30 /* XMIconsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMIconsView.m; sourceTree = "<group>"; };
+		0428A9601963EB8800FE1F30 /* QBAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationGroup.h; sourceTree = "<group>"; };
+		0428A9611963EB8800FE1F30 /* QBAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationGroup.m; sourceTree = "<group>"; };
+		0428A9621963EB8800FE1F30 /* QBAnimationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationItem.h; sourceTree = "<group>"; };
+		0428A9631963EB8800FE1F30 /* QBAnimationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationItem.m; sourceTree = "<group>"; };
+		0428A9641963EB8800FE1F30 /* QBAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationSequence.h; sourceTree = "<group>"; };
+		0428A9651963EB8800FE1F30 /* QBAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationSequence.m; sourceTree = "<group>"; };
+		0428A96A1963ED9F00FE1F30 /* predefinedApps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = predefinedApps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +126,16 @@
 		0428A92D1963E7E300FE1F30 /* Animation_Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				0428A95F1963EB6F00FE1F30 /* QBAnimation */,
 				0428A9361963E7E300FE1F30 /* XMAppDelegate.h */,
 				0428A9371963E7E300FE1F30 /* XMAppDelegate.m */,
 				0428A9391963E7E300FE1F30 /* Main.storyboard */,
 				0428A93C1963E7E300FE1F30 /* XMViewController.h */,
 				0428A93D1963E7E300FE1F30 /* XMViewController.m */,
+				0428A95C1963EAC800FE1F30 /* XMIconsView.h */,
+				0428A95D1963EAC800FE1F30 /* XMIconsView.m */,
 				0428A93F1963E7E300FE1F30 /* Images.xcassets */,
+				0428A9691963ED8900FE1F30 /* Resources */,
 				0428A92E1963E7E300FE1F30 /* Supporting Files */,
 			);
 			path = Animation_Sequence;
@@ -150,6 +168,27 @@
 				0428A94F1963E7E300FE1F30 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0428A95F1963EB6F00FE1F30 /* QBAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0428A9601963EB8800FE1F30 /* QBAnimationGroup.h */,
+				0428A9611963EB8800FE1F30 /* QBAnimationGroup.m */,
+				0428A9621963EB8800FE1F30 /* QBAnimationItem.h */,
+				0428A9631963EB8800FE1F30 /* QBAnimationItem.m */,
+				0428A9641963EB8800FE1F30 /* QBAnimationSequence.h */,
+				0428A9651963EB8800FE1F30 /* QBAnimationSequence.m */,
+			);
+			name = QBAnimation;
+			sourceTree = "<group>";
+		};
+		0428A9691963ED8900FE1F30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0428A96A1963ED9F00FE1F30 /* predefinedApps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +271,7 @@
 				0428A9401963E7E300FE1F30 /* Images.xcassets in Resources */,
 				0428A9321963E7E300FE1F30 /* InfoPlist.strings in Resources */,
 				0428A93B1963E7E300FE1F30 /* Main.storyboard in Resources */,
+				0428A96B1963ED9F00FE1F30 /* predefinedApps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0428A9661963EB8800FE1F30 /* QBAnimationGroup.m in Sources */,
+				0428A95E1963EAC800FE1F30 /* XMIconsView.m in Sources */,
+				0428A9681963EB8800FE1F30 /* QBAnimationSequence.m in Sources */,
 				0428A9341963E7E300FE1F30 /* main.m in Sources */,
 				0428A9381963E7E300FE1F30 /* XMAppDelegate.m in Sources */,
+				0428A9671963EB8800FE1F30 /* QBAnimationItem.m in Sources */,
 				0428A93E1963E7E300FE1F30 /* XMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

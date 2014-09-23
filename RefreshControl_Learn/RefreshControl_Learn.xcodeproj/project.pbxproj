@@ -21,6 +21,7 @@
 		0420F31F1965027900948099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420F3011965027900948099 /* UIKit.framework */; };
 		0420F3271965027900948099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0420F3251965027900948099 /* InfoPlist.strings */; };
 		0420F3291965027900948099 /* RefreshControl_LearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420F3281965027900948099 /* RefreshControl_LearnTests.m */; };
+		04E3B9BE19B75208004150DD /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B9BD19B75208004150DD /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0420F3241965027900948099 /* RefreshControl_LearnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshControl_LearnTests-Info.plist"; sourceTree = "<group>"; };
 		0420F3261965027900948099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0420F3281965027900948099 /* RefreshControl_LearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshControl_LearnTests.m; sourceTree = "<group>"; };
+		04E3B9BC19B75208004150DD /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		04E3B9BD19B75208004150DD /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		0420F3031965027900948099 /* RefreshControl_Learn */ = {
 			isa = PBXGroup;
 			children = (
+				04E3B9BC19B75208004150DD /* EGORefreshTableHeaderView.h */,
+				04E3B9BD19B75208004150DD /* EGORefreshTableHeaderView.m */,
 				0420F30C1965027900948099 /* XMAppDelegate.h */,
 				0420F30D1965027900948099 /* XMAppDelegate.m */,
 				0420F30F1965027900948099 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E3B9BE19B75208004150DD /* EGORefreshTableHeaderView.m in Sources */,
 				0420F30A1965027900948099 /* main.m in Sources */,
 				0420F30E1965027900948099 /* XMAppDelegate.m in Sources */,
 				0420F3141965027900948099 /* XMViewController.m in Sources */,
@@ -459,6 +465,7 @@
 				0420F32E1965027900948099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0420F32F1965027900948099 /* Build configuration list for PBXNativeTarget "RefreshControl_LearnTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				0420F3311965027900948099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

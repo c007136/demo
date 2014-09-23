@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042329321999F43F00802A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329311999F43F00802A4A /* Foundation.framework */; };
+		042329341999F43F00802A4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329331999F43F00802A4A /* CoreGraphics.framework */; };
+		042329361999F43F00802A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329351999F43F00802A4A /* UIKit.framework */; };
+		0423293C1999F43F00802A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0423293A1999F43F00802A4A /* InfoPlist.strings */; };
+		0423293E1999F43F00802A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423293D1999F43F00802A4A /* main.m */; };
+		042329421999F43F00802A4A /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042329411999F43F00802A4A /* XMAppDelegate.m */; };
+		042329451999F43F00802A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042329431999F43F00802A4A /* Main.storyboard */; };
+		042329481999F43F00802A4A /* XMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042329471999F43F00802A4A /* XMViewController.m */; };
+		0423294A1999F43F00802A4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042329491999F43F00802A4A /* Images.xcassets */; };
+		042329511999F43F00802A4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329501999F43F00802A4A /* XCTest.framework */; };
+		042329521999F43F00802A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329311999F43F00802A4A /* Foundation.framework */; };
+		042329531999F43F00802A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042329351999F43F00802A4A /* UIKit.framework */; };
+		0423295B1999F43F00802A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042329591999F43F00802A4A /* InfoPlist.strings */; };
+		0423295D1999F43F00802A4A /* MultiLayerNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423295C1999F43F00802A4A /* MultiLayerNavTests.m */; };
+		0423296B1999FE1D00802A4A /* XMNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423296A1999FE1D00802A4A /* XMNavgationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042329541999F43F00802A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042329261999F43F00802A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0423292D1999F43F00802A4A;
+			remoteInfo = MultiLayerNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0423292E1999F43F00802A4A /* MultiLayerNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiLayerNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042329311999F43F00802A4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		042329331999F43F00802A4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		042329351999F43F00802A4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		042329391999F43F00802A4A /* MultiLayerNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiLayerNav-Info.plist"; sourceTree = "<group>"; };
+		0423293B1999F43F00802A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0423293D1999F43F00802A4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0423293F1999F43F00802A4A /* MultiLayerNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiLayerNav-Prefix.pch"; sourceTree = "<group>"; };
+		042329401999F43F00802A4A /* XMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAppDelegate.h; sourceTree = "<group>"; };
+		042329411999F43F00802A4A /* XMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAppDelegate.m; sourceTree = "<group>"; };
+		042329441999F43F00802A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042329461999F43F00802A4A /* XMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMViewController.h; sourceTree = "<group>"; };
+		042329471999F43F00802A4A /* XMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMViewController.m; sourceTree = "<group>"; };
+		042329491999F43F00802A4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0423294F1999F43F00802A4A /* MultiLayerNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLayerNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042329501999F43F00802A4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		042329581999F43F00802A4A /* MultiLayerNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiLayerNavTests-Info.plist"; sourceTree = "<group>"; };
+		0423295A1999F43F00802A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0423295C1999F43F00802A4A /* MultiLayerNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiLayerNavTests.m; sourceTree = "<group>"; };
+		042329691999FE1D00802A4A /* XMNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNavgationController.h; sourceTree = "<group>"; };
+		0423296A1999FE1D00802A4A /* XMNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNavgationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0423292B1999F43F00802A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042329341999F43F00802A4A /* CoreGraphics.framework in Frameworks */,
+				042329361999F43F00802A4A /* UIKit.framework in Frameworks */,
+				042329321999F43F00802A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423294C1999F43F00802A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042329511999F43F00802A4A /* XCTest.framework in Frameworks */,
+				042329531999F43F00802A4A /* UIKit.framework in Frameworks */,
+				042329521999F43F00802A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042329251999F43F00802A4A = {
+			isa = PBXGroup;
+			children = (
+				042329371999F43F00802A4A /* MultiLayerNav */,
+				042329561999F43F00802A4A /* MultiLayerNavTests */,
+				042329301999F43F00802A4A /* Frameworks */,
+				0423292F1999F43F00802A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0423292F1999F43F00802A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0423292E1999F43F00802A4A /* MultiLayerNav.app */,
+				0423294F1999F43F00802A4A /* MultiLayerNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042329301999F43F00802A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042329311999F43F00802A4A /* Foundation.framework */,
+				042329331999F43F00802A4A /* CoreGraphics.framework */,
+				042329351999F43F00802A4A /* UIKit.framework */,
+				042329501999F43F00802A4A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		042329371999F43F00802A4A /* MultiLayerNav */ = {
+			isa = PBXGroup;
+			children = (
+				042329691999FE1D00802A4A /* XMNavgationController.h */,
+				0423296A1999FE1D00802A4A /* XMNavgationController.m */,
+				042329401999F43F00802A4A /* XMAppDelegate.h */,
+				042329411999F43F00802A4A /* XMAppDelegate.m */,
+				042329431999F43F00802A4A /* Main.storyboard */,
+				042329461999F43F00802A4A /* XMViewController.h */,
+				042329471999F43F00802A4A /* XMViewController.m */,
+				042329491999F43F00802A4A /* Images.xcassets */,
+				042329381999F43F00802A4A /* Supporting Files */,
+			);
+			path = MultiLayerNav;
+			sourceTree = "<group>";
+		};
+		042329381999F43F00802A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042329391999F43F00802A4A /* MultiLayerNav-Info.plist */,
+				0423293A1999F43F00802A4A /* InfoPlist.strings */,
+				0423293D1999F43F00802A4A /* main.m */,
+				0423293F1999F43F00802A4A /* MultiLayerNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042329561999F43F00802A4A /* MultiLayerNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				0423295C1999F43F00802A4A /* MultiLayerNavTests.m */,
+				042329571999F43F00802A4A /* Supporting Files */,
+			);
+			path = MultiLayerNavTests;
+			sourceTree = "<group>";
+		};
+		042329571999F43F00802A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042329581999F43F00802A4A /* MultiLayerNavTests-Info.plist */,
+				042329591999F43F00802A4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0423292D1999F43F00802A4A /* MultiLayerNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042329601999F43F00802A4A /* Build configuration list for PBXNativeTarget "MultiLayerNav" */;
+			buildPhases = (
+				0423292A1999F43F00802A4A /* Sources */,
+				0423292B1999F43F00802A4A /* Frameworks */,
+				0423292C1999F43F00802A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiLayerNav;
+			productName = MultiLayerNav;
+			productReference = 0423292E1999F43F00802A4A /* MultiLayerNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0423294E1999F43F00802A4A /* MultiLayerNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042329631999F43F00802A4A /* Build configuration list for PBXNativeTarget "MultiLayerNavTests" */;
+			buildPhases = (
+				0423294B1999F43F00802A4A /* Sources */,
+				0423294C1999F43F00802A4A /* Frameworks */,
+				0423294D1999F43F00802A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042329551999F43F00802A4A /* PBXTargetDependency */,
+			);
+			name = MultiLayerNavTests;
+			productName = MultiLayerNavTests;
+			productReference = 0423294F1999F43F00802A4A /* MultiLayerNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042329261999F43F00802A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.yuzhuangbao.xiaomi;
+				TargetAttributes = {
+					0423294E1999F43F00802A4A = {
+						TestTargetID = 0423292D1999F43F00802A4A;
+					};
+				};
+			};
+			buildConfigurationList = 042329291999F43F00802A4A /* Build configuration list for PBXProject "MultiLayerNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042329251999F43F00802A4A;
+			productRefGroup = 0423292F1999F43F00802A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0423292D1999F43F00802A4A /* MultiLayerNav */,
+				0423294E1999F43F00802A4A /* MultiLayerNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0423292C1999F43F00802A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0423294A1999F43F00802A4A /* Images.xcassets in Resources */,
+				0423293C1999F43F00802A4A /* InfoPlist.strings in Resources */,
+				042329451999F43F00802A4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423294D1999F43F00802A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0423295B1999F43F00802A4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0423292A1999F43F00802A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0423293E1999F43F00802A4A /* main.m in Sources */,
+				042329421999F43F00802A4A /* XMAppDelegate.m in Sources */,
+				0423296B1999FE1D00802A4A /* XMNavgationController.m in Sources */,
+				042329481999F43F00802A4A /* XMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423294B1999F43F00802A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0423295D1999F43F00802A4A /* MultiLayerNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042329551999F43F00802A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0423292D1999F43F00802A4A /* MultiLayerNav */;
+			targetProxy = 042329541999F43F00802A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0423293A1999F43F00802A4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0423293B1999F43F00802A4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		042329431999F43F00802A4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042329441999F43F00802A4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042329591999F43F00802A4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0423295A1999F43F00802A4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0423295E1999F43F00802A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0423295F1999F43F00802A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042329611999F43F00802A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiLayerNav/MultiLayerNav-Prefix.pch";
+				INFOPLIST_FILE = "MultiLayerNav/MultiLayerNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		042329621999F43F00802A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiLayerNav/MultiLayerNav-Prefix.pch";
+				INFOPLIST_FILE = "MultiLayerNav/MultiLayerNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		042329641999F43F00802A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiLayerNav.app/MultiLayerNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiLayerNav/MultiLayerNav-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiLayerNavTests/MultiLayerNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		042329651999F43F00802A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiLayerNav.app/MultiLayerNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiLayerNav/MultiLayerNav-Prefix.pch";
+				INFOPLIST_FILE = "MultiLayerNavTests/MultiLayerNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042329291999F43F00802A4A /* Build configuration list for PBXProject "MultiLayerNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0423295E1999F43F00802A4A /* Debug */,
+				0423295F1999F43F00802A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042329601999F43F00802A4A /* Build configuration list for PBXNativeTarget "MultiLayerNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042329611999F43F00802A4A /* Debug */,
+				042329621999F43F00802A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042329631999F43F00802A4A /* Build configuration list for PBXNativeTarget "MultiLayerNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042329641999F43F00802A4A /* Debug */,
+				042329651999F43F00802A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042329261999F43F00802A4A /* Project object */;
+}
